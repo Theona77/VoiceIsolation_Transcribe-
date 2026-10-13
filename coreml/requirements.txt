@@ -1,0 +1,18 @@
+# Versions the export scripts were tested with (Python 3.11).
+# Conversion works on macOS and Linux; running the .mlpackage needs macOS/iOS.
+torch==2.5.0
+torchaudio==2.5.0
+coremltools==8.3.0
+numpy<2
+transformers==4.53.0
+argmaxtools==0.1.23
+whisperkit @ git+https://github.com/argmaxinc/whisperkittools@84f77a83c8f530022ae55fbb1a64b3351ef63c7a
+# Demucs from this repo: pip install -e . --no-deps, plus its runtime deps
+einops
+julius
+openunmix
+dora-search
+lameenc
+pyyaml
+tqdm
+soundfile

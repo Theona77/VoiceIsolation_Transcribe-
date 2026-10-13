@@ -38,3 +38,10 @@ venv/
 /audio/*.mp3
 /test.mp3
 /outputs.tar.gz
+
+# Core ML exports and fine-tuning data/checkpoints
+/coreml/build/
+/data/
+/whisper-small-worship/
+*.mlpackage
+*.mlmodelc
