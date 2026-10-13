@@ -1,0 +1,40 @@
+*.egg-info
+__pycache__
+Session.vim
+/build
+/dist
+/lab
+/metadata
+/notebooks
+/outputs
+/release
+/release_models
+/separated
+/tests
+/trash
+/misc
+/mdx
+.mypy_cache
+
+# Local Python environments
+.venv/
+.venv311/
+venv/
+
+# Python cache and compiled files
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Local environment variables and secrets
+.env
+.env.*
+
+# Generated results
+/results/
+
+# Local audio and archives
+/audio/*.mp3
+/test.mp3
+/outputs.tar.gz
